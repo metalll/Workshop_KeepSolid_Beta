@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Mind Cards</string>
     <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_sign_in">SignIn</string>
+
+
+    <!-- Форма Описание -->
+    <!-- Логин -->
+    <string name="login_hint">Логин</string>
+    <string name="login_field"></string>
+    <!-- Пароль -->
+    <string name="passworld_hint">Пароль</string>
+    <string name="passworld_field"></string>
+
+    <string name="login_button_text">Войти</string>
 </resources>
