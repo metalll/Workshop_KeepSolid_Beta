@@ -1,4 +1,4 @@
-package CustomView;
+package workshop.mindcards.CustomView;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.app.Activity;

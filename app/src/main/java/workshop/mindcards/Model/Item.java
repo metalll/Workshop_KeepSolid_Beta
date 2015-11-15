@@ -1,5 +1,6 @@
 package workshop.mindcards.Model;
 
+import android.graphics.Bitmap;
 import android.graphics.Color;
 
 /**
@@ -11,7 +12,10 @@ public class Item {
     private int _color;
     private static int _id=0;
     private String _strId;
-    private final boolean _root;
+
+    private int _locationX;
+    private int _locationY;
+    private Bitmap _icon;
 
 
     public Item()
@@ -21,12 +25,7 @@ public class Item {
         this._level=0;
         this._content="";
         this._color=Color.TRANSPARENT;
-        this._root=_level==0;
 
-        if(isRoot())
-            _strId="root_element_"+_id;
-
-        else
             _strId="element_"+_id;
 
         _id++;
@@ -42,13 +41,10 @@ public class Item {
         this._level=0;
         this._content=content;
         this._color=Color.MAGENTA;
-        this._root=_level==0;
 
-        if(isRoot())
-            _strId="root_element_"+_id;
 
-        else
-            _strId="element_"+_id;
+
+            _strId="item_"+_id;
 
         _id++;
 
@@ -67,7 +63,16 @@ public class Item {
 
 
     public int get_level(){return this._level;}
-    public boolean isRoot(){return this._root;}
+
+
+    public void set_location(int x,int y)
+    {
+
+    }
+
+    public void set_icon(Bitmap icon){this._icon=icon;}
+    public Bitmap get_icon() {return this._icon;}
+
 
 
 }

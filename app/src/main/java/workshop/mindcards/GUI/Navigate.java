@@ -1,31 +1,16 @@
 package workshop.mindcards.GUI;
 
-import android.app.AlertDialog;
-import android.app.ProgressDialog;
-import android.database.DataSetObserver;
-import android.graphics.Color;
-import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
-
-import CustomView.FloatingActionButton;
-;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.HeaderViewListAdapter;
-import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
-
-import java.util.ArrayList;
-
-import butterknife.InjectView;
+import workshop.mindcards.CustomView.FloatingActionButton;
 import workshop.mindcards.R;
+
+;
 
 public class Navigate extends AppCompatActivity {
 
@@ -36,7 +21,7 @@ public class Navigate extends AppCompatActivity {
    // ArrayAdapter listAdapter;
    // String[] arrayList;
  // набор данных, которые свяжем ос списком
- String[] ideas = {"Идея"};
+
 
 
     @Override

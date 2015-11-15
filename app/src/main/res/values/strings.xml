@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Mind Cards</string>
-    <string name="title_activity_welcome">WelcomeActivity</string>
-    <string name="title_activity_sign_in">SignIn</string>
+    <string name="app_name">Mind Map</string>
+    <string name="title_activity_welcome">Mind Map</string>
+    <string name="title_activity_sign_in">Mind Map</string>
 
 
     <!-- Форма Описание -->
@@ -13,5 +13,12 @@
     <string name="passworld_field"></string>
 
     <string name="login_button_text">Войти</string>
-    <string name="title_activity_navigate">Navigate</string>
+    <string name="title_activity_navigate">Mind Map</string>
+
+
+   <string-array name="logins"></string-array>
+    <string-array name="passwords"></string-array>
+
+
+
 </resources>
