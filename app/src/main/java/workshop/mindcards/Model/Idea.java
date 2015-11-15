@@ -6,11 +6,21 @@ package workshop.mindcards.Model;
 public class Idea {
 
     private Item _rootItem;
-    private ItemCollection _itemCollection;
+    private ItemCollection _itemCollectionTopic;
+    private ItemCollection _itemCollectionSubTopic;
 
+    public Item get_RootItem()
+    {
+          return _rootItem;
+    }
 
+    public ItemCollection get_itemCollectionTopic() {
+        return _itemCollectionTopic;
+    }
 
-
+    public ItemCollection get_itemCollectionSubTopic() {
+        return _itemCollectionSubTopic;
+    }
 
 
 }
