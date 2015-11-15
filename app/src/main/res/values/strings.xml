@@ -13,4 +13,5 @@
     <string name="passworld_field"></string>
 
     <string name="login_button_text">Войти</string>
+    <string name="title_activity_navigate">Navigate</string>
 </resources>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="workshop.mindcards"
-
-    >
+    package="workshop.mindcards" >
 
     <application
         android:allowBackup="true"
@@ -24,6 +22,11 @@
             android:name=".GUI.SignIn"
             android:label="@string/title_activity_sign_in"
             android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".GUI.Navigate"
+            android:label="@string/title_activity_navigate"
+            android:theme="@style/AppTheme" >
         </activity>
     </application>
 

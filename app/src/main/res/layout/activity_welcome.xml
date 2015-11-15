@@ -5,15 +5,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/layout"
-    tools:context=".MainActivity" >
+    android:background="#000000"
+    tools:context=".MainActivity"
+    >
 
     <ImageView
         android:id="@+id/logo"
+
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:src="@drawable/my_logo"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center_horizontal" />
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        />
 
 </LinearLayout>
