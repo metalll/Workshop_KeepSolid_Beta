@@ -133,13 +133,13 @@ public class WelcomeActivity extends AppCompatActivity {
                 super.onPreExecute();
                 layout.setBackgroundColor(Color.rgb(255, 255, 255));
 
-                logo.setImageResource(R.drawable.logo_keepsolid);
+               // logo.setImageResource(R.drawable.logo_keepsolid);
 
             }
 
             @Override
             protected Void doInBackground(Void... params) {
-                try {
+               /* try {
 
 
 
@@ -148,7 +148,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
                 } catch (InterruptedException e) {
                     e.printStackTrace();
-                }
+                }*/
                 return null;
             }
 
