@@ -11,7 +11,7 @@ public class Item {
     private String _content;
     private int _color;
     private static int _id=0;
-
+    private ItemCollection itemCollection;
     private int _locationX;
     private int _locationY;
     private Bitmap _icon;
@@ -76,6 +76,8 @@ public class Item {
 
     public void set_Icon(Bitmap icon){this._icon=icon;}
     public Bitmap get_Icon() {return this._icon;}
+
+    public ItemCollection get_ItemCollection(){return this.itemCollection;}
 
 
 
